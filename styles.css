@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px
+}
+
+h1 {
+  color: #333
+}
+
+input[type=text] {
+  padding: 8px;
+  margin-right: 10px
+}
+
+.made-by {
+  position: absolute;
+  left: 2.5%;
+  bottom: 12.5%;
+  font-size: 1vw;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 900;
+  color: black;
+  /* Change the color to match your screen */
+  padding: 10px;
+  border: 2px solid black;
+  /* Change the border color to match your screen */
+  border-radius: 10px;
+}
+
+.made-with {
+  position: absolute;
+  right: 2.5%;
+  bottom: 2.5%;
+  font-size: 1vw;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 900;
+  color: black;
+  /* Change the color to match your screen */
+  padding: 10px;
+  border: 2px solid black;
+  /* Change the border color to match your screen */
+  border-radius: 10px;
+}
+
+#taskInput {
+  width: 80%;
+  max-width: 400px;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer
+}
+
+#taskList {
+  width: 80%;
+  max-width: 400px
+}
+
+button:hover {
+  background-color: #45a049
+}
+
+.todo-item {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.todo-item button {
+  padding: 6px 12px;
+  margin-left: 10px;
+  cursor: pointer
+}
+
+.log-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 250px;
+  height: 250px;
+  border: 2px solid tomato;
+  padding: 10px;
+  overflow-y: auto
+}
+
+.deleted-tasks {
+  position: fixed;
+  top: 300px;
+  right: 10px;
+  width: 80%;
+  max-width: 400px;
+  border: 2px solid tomato;
+  padding: 10px;
+  margin-top: 20px
+}
+
+.deleted-task {
+  background-color: #ffe4e1;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+body {
+  background-image: url('background-image.jfif');
+  /* Replace 'background-image.jpg' with the path to your desired image */
+  background-size: ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #f2f2f2;
+  /* Fallback background color */
+}
