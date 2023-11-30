@@ -94,6 +94,15 @@ button:hover {
   overflow-y: auto
 }
 
+.log-container::before, .deleted-tasks::before {
+  content: "Log container screen"; /* Text content for the pseudo-element */
+  color: #999; /* Placeholder text color */
+  position: absolute; /* Position the pseudo-element */
+  top: 50%; /* Adjust the vertical position */
+  left: 50%; /* Adjust the horizontal position */
+  transform: translate(-50%, -50%); /* Center the pseudo-element */
+}
+
 .deleted-tasks {
   position: fixed;
   top: 300px;
